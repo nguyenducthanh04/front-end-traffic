@@ -1,0 +1,26 @@
+.home_body {
+    display: grid;
+    place-items: center;
+}
+.home_body_title {
+    margin-top: 30px;
+}
+.home_body_introduce {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home_body_title_mobile {
+    display: none;
+}
+@media (max-width: 768px) {
+  .home_body_introduce {
+    display: block;
+ }
+ .home_body_title {
+    display: none;
+ }
+ .home_body_title_mobile {
+    display: block;
+}
+}

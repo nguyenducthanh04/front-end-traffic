@@ -1,0 +1,48 @@
+.intro-container {
+  max-width: 800px;
+  margin: 40px 25px;
+  padding: 24px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.intro-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.intro-list {
+  list-style: decimal inside;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.intro-list li {
+  margin-bottom: 16px;
+}
+
+.intro-sublist {
+  list-style: circle inside;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.intro-sublist li {
+  margin-bottom: 6px;
+}
+
+.intro-note {
+  margin-top: 30px;
+  font-style: italic;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
